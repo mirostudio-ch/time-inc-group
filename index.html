@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Time Inc. Group — Global management company specializing in luxury watch industry consulting, brand profiling, and 360-degree business services. Headquartered in Dubai Media City.">
+  <meta name="keywords" content="luxury watches, brand management, consulting, Dubai, Time Inc Group, tourbillon, luxury goods">
+  <meta name="author" content="Time Inc. Group">
+  <meta property="og:title" content="Time Inc. Group — Discover the World of Luxury">
+  <meta property="og:description" content="Global management and consulting for the luxury watch industry. Headquartered in Dubai Media City.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/logo.jpg">
+  <title>Time Inc. Group — Discover the World of Luxury</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/jpeg" href="assets/logo.jpg">
+</head>
+<body>
+
+  <!-- Grain Texture Overlay -->
+  <div class="grain" aria-hidden="true"></div>
+
+  <!-- ====== NAVIGATION ====== -->
+  <nav class="nav" id="navbar" role="navigation" aria-label="Main navigation">
+    <a href="#home" class="nav__logo">
+      <svg class="nav__logo-img" viewBox="0 0 220 36" xmlns="http://www.w3.org/2000/svg" aria-label="Time Inc. Group Logo">
+        <circle cx="36" cy="5" r="4.5" stroke="#f5f0eb" stroke-width="1.2" fill="none"/>
+        <line x1="36" y1="2.5" x2="36" y2="5" stroke="#f5f0eb" stroke-width="1" stroke-linecap="round"/>
+        <line x1="36" y1="5" x2="38" y2="3.8" stroke="#f5f0eb" stroke-width="1" stroke-linecap="round"/>
+        <text x="0" y="30" font-family="'Helvetica Neue',Arial,sans-serif" font-size="28" font-weight="800" fill="#f5f0eb" letter-spacing="0">TiME</text>
+        <text x="83" y="30" font-family="'Helvetica Neue',Arial,sans-serif" font-size="28" font-weight="700" fill="#f5f0eb"> Inc. Group</text>
+      </svg>
+    </a>
+
+    <ul class="nav__links" id="navLinks">
+      <li><a href="#home" class="nav__link active" data-section="home">Home</a></li>
+      <li><a href="#news" class="nav__link" data-section="news">News</a></li>
+      <li><a href="#about" class="nav__link" data-section="about">About</a></li>
+      <li><a href="#performance" class="nav__link" data-section="performance">Performance</a></li>
+      <li><a href="#references" class="nav__link" data-section="references">References</a></li>
+      <li><a href="#contact" class="nav__link" data-section="contact">Contact</a></li>
+    </ul>
+
+    <button class="nav__toggle" id="navToggle" aria-label="Toggle navigation menu" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </nav>
+
+  <!-- ====== HERO / HOME ====== -->
+  <section class="hero" id="home">
+    <img src="assets/dubai-skyline.jpg" alt="" class="hero__bg" aria-hidden="true">
+    <div class="hero__gradient" aria-hidden="true"></div>
+    
+    <div class="hero__content">
+      <svg class="hero__logo" viewBox="0 0 600 90" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Time Inc. Group">
+        <!-- Clock icon above the i -->
+        <circle cx="100" cy="14" r="10" stroke="#f5f0eb" stroke-width="1.8" fill="none"/>
+        <line x1="100" y1="7" x2="100" y2="14" stroke="#f5f0eb" stroke-width="1.5" stroke-linecap="round"/>
+        <line x1="100" y1="14" x2="105" y2="11" stroke="#f5f0eb" stroke-width="1.5" stroke-linecap="round"/>
+        <!-- Tick marks -->
+        <line x1="100" y1="5.5" x2="100" y2="6.8" stroke="#f5f0eb" stroke-width="0.8"/>
+        <line x1="100" y1="21.2" x2="100" y2="22.5" stroke="#f5f0eb" stroke-width="0.8"/>
+        <line x1="91.5" y1="14" x2="90.2" y2="14" stroke="#f5f0eb" stroke-width="0.8"/>
+        <line x1="109.8" y1="14" x2="108.5" y2="14" stroke="#f5f0eb" stroke-width="0.8"/>
+        <!-- TiME text -->
+        <text x="0" y="75" font-family="'Helvetica Neue',Arial,sans-serif" font-size="70" font-weight="900" fill="#f5f0eb" letter-spacing="-1">T</text>
+        <text x="44" y="75" font-family="'Helvetica Neue',Arial,sans-serif" font-size="70" font-weight="900" fill="#f5f0eb">i</text>
+        <text x="64" y="75" font-family="'Helvetica Neue',Arial,sans-serif" font-size="70" font-weight="900" fill="#f5f0eb" letter-spacing="-1">ME</text>
+        <!-- Inc. Group -->
+        <text x="220" y="75" font-family="'Helvetica Neue',Arial,sans-serif" font-size="70" font-weight="700" fill="#f5f0eb" letter-spacing="1">Inc. Group</text>
+      </svg>
+      <p class="hero__tagline">Discover the world of luxury</p>
+      <p class="hero__subtitle">Dubai &nbsp;·&nbsp; Switzerland &nbsp;·&nbsp; Worldwide</p>
+    </div>
+
+    <div class="hero__scroll" aria-hidden="true">
+      <span class="hero__scroll-text">Scroll</span>
+      <span class="hero__scroll-line"></span>
+    </div>
+  </section>
+
+  <!-- ====== NEWS ====== -->
+  <section class="section section--half news" id="news">
+    <div class="section__container">
+      <div class="news__header reveal">
+        <div>
+          <span class="section__label">Latest Updates</span>
+          <h2 class="section__title">News</h2>
+          <p class="section__text">
+            Stay informed about the latest developments in luxury watch consulting, 
+            brand management, and industry insights from Time Inc. Group.
+          </p>
+        </div>
+        <a href="https://tick-talk.ch" target="_blank" rel="noopener noreferrer" class="news__cta" id="tickTalkLink">
+          Visit Tick-Talk.ch
+          <span class="news__cta-arrow">→</span>
+        </a>
+      </div>
+
+      <div class="news__entries reveal reveal-delay-1">
+        <article class="news__entry">
+          <time class="news__entry-date">March 2026</time>
+          <h3 class="news__entry-title">TIG Expands Strategic Consulting in the Middle East</h3>
+          <p class="news__entry-text">
+            Time Inc. Group strengthens its presence in the Gulf region with new brand consulting partnerships, focusing on luxury watch distribution and market positioning.
+          </p>
+        </article>
+        <article class="news__entry">
+          <time class="news__entry-date">February 2026</time>
+          <h3 class="news__entry-title">Tourbillon Magazine — New Digital Edition Launched</h3>
+          <p class="news__entry-text">
+            The latest edition of Tourbillon Magazine is now available online, featuring exclusive interviews with independent watchmakers and in-depth brand profiles.
+          </p>
+        </article>
+        <article class="news__entry">
+          <time class="news__entry-date">January 2026</time>
+          <h3 class="news__entry-title">Partnership with Swiss Watch Industry Leaders</h3>
+          <p class="news__entry-text">
+            TIG announces new collaboration with leading Swiss manufacture brands, offering end-to-end sales strategy and global marketing solutions.
+          </p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== ABOUT ====== -->
+  <section class="section about" id="about">
+    <div class="about__bg" aria-hidden="true"></div>
+    <div class="section__container about__content">
+      <div>
+        <div class="reveal">
+          <span class="section__label">Who We Are</span>
+          <h2 class="section__title">A Global Management Company for the Luxury Watch Industry</h2>
+        </div>
+        <div class="reveal reveal-delay-1">
+          <p class="section__text">
+            Time Inc. Group is a global management company, a service provider that delivers the necessary professional business infrastructure — including accounting (Fi-Bu/Be-Bu), accounts payable, accounts receivable and creditor management, human resources, sales &amp; distribution worldwide, global marketing, communication PR, advertising, and more — for companies in and for the watch industry.
+          </p>
+        </div>
+        <div class="section__divider reveal reveal-delay-2"></div>
+        <div class="reveal reveal-delay-3">
+          <p class="section__text">
+            The owner has over 50 years of international experience in the luxury watch industry and has built an extensive international network of specialists in the luxury goods sector.
+          </p>
+        </div>
+      </div>
+
+      <div class="about__highlights">
+        <div class="about__highlight reveal reveal-delay-1">
+          <div class="about__highlight-number">50+</div>
+          <div class="about__highlight-label">Years of Experience</div>
+        </div>
+        <div class="about__highlight reveal reveal-delay-2">
+          <div class="about__highlight-number">360°</div>
+          <div class="about__highlight-label">Consulting Services</div>
+        </div>
+        <div class="about__highlight reveal reveal-delay-3">
+          <div class="about__highlight-number">Global</div>
+          <div class="about__highlight-label">Network of Specialists</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== PERFORMANCE ====== -->
+  <section class="section performance" id="performance">
+    <div class="section__container">
+      <div class="reveal">
+        <span class="section__label">Our Services</span>
+        <h2 class="section__title">Tailor-Made 360° Consultation</h2>
+      </div>
+
+      <div class="performance__content">
+        <div class="performance__description reveal reveal-delay-1">
+          <p>
+            We don't offer a typical full service, but rather a "tailor-made 360-degree" consultation for the world of luxury goods, especially luxury watches. From the initial sketch to the distribution of the watches.
+          </p>
+          <p>
+            TIG is the owner and service partner of the following luxury brands and ensures the commercial aspect as well as the content creation and graphic style of the different websites and marketing.
+          </p>
+        </div>
+
+        <div class="performance__services reveal reveal-delay-2">
+          <div class="performance__service">
+            <div class="performance__service-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2">
+                <path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/>
+              </svg>
+            </div>
+            <h4 class="performance__service-title">Brand Strategy</h4>
+            <p class="performance__service-text">Market positioning, brand identity and luxury segment consulting</p>
+          </div>
+          <div class="performance__service">
+            <div class="performance__service-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2">
+                <circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+              </svg>
+            </div>
+            <h4 class="performance__service-title">Global Distribution</h4>
+            <p class="performance__service-text">Worldwide sales networks and international market access</p>
+          </div>
+          <div class="performance__service">
+            <div class="performance__service-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2">
+                <path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"/><path d="M14 2v6h6"/><path d="M8 13h8"/><path d="M8 17h8"/>
+              </svg>
+            </div>
+            <h4 class="performance__service-title">Content & Marketing</h4>
+            <p class="performance__service-text">Editorial, advertising, PR and digital communication</p>
+          </div>
+          <div class="performance__service">
+            <div class="performance__service-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2">
+                <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+              </svg>
+            </div>
+            <h4 class="performance__service-title">HR & Operations</h4>
+            <p class="performance__service-text">Human resources, accounting and business infrastructure</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="performance__brands reveal reveal-delay-3">
+        <h3 class="performance__brands-title">Brand Portfolio</h3>
+        <div class="performance__brands-grid">
+          <a href="https://tourbillon-magazine.com" target="_blank" rel="noopener noreferrer" class="performance__brand">Tourbillon-Magazine.com</a>
+          <a href="https://tourbillon-magazin.ch" target="_blank" rel="noopener noreferrer" class="performance__brand">Tourbillon-Magazin.ch</a>
+          <a href="https://tourbillon-tv.com" target="_blank" rel="noopener noreferrer" class="performance__brand">Tourbillon-TV.com</a>
+          <a href="https://art-of-tourbillon.com" target="_blank" rel="noopener noreferrer" class="performance__brand">Art-of-Tourbillon.com</a>
+          <a href="https://tick-talk.ch" target="_blank" rel="noopener noreferrer" class="performance__brand">Tick-Talk.ch</a>
+          <a href="https://tick-talk.online" target="_blank" rel="noopener noreferrer" class="performance__brand">Tick-Talk.online</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== REFERENCES ====== -->
+  <section class="section references" id="references">
+    <div class="section__container">
+      <div class="reveal">
+        <span class="section__label">Our Track Record</span>
+        <h2 class="section__title">Brand Profiling, Content Creation,<br>Marketing &amp; Collaborations</h2>
+        <p class="section__text">
+          Licensing and collaborations for luxury brands — delivering strategic excellence across the watch industry.
+        </p>
+      </div>
+
+      <div class="references__grid">
+        <div class="references__item reveal reveal-delay-1">
+          <div class="references__item-brand">Urban Jürgensen</div>
+          <div class="references__item-desc">Brand relaunch for Peter Baumberger</div>
+        </div>
+        <div class="references__item reveal reveal-delay-2">
+          <div class="references__item-brand">Chopard L.U.C</div>
+          <div class="references__item-desc">Public relations strategy</div>
+        </div>
+        <div class="references__item reveal reveal-delay-3">
+          <div class="references__item-brand">François-Paul Journe</div>
+          <div class="references__item-desc">Sales catalogs and books</div>
+        </div>
+        <div class="references__item reveal reveal-delay-4">
+          <div class="references__item-brand">Omega</div>
+          <div class="references__item-desc">Brand management</div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ====== CONTACT ====== -->
+  <section class="section contact" id="contact">
+    <!-- Dubai Media City banner image -->
+    <div class="contact__banner reveal">
+      <img src="assets/dubai-media-city.webp" alt="Dubai Media City" class="contact__banner-img" loading="lazy">
+      <div class="contact__banner-overlay"></div>
+      <div class="contact__banner-content">
+        <span class="section__label">Get in Touch</span>
+        <h2 class="section__title">Contact Us</h2>
+      </div>
+    </div>
+
+    <div class="section__container">
+      <div class="contact__grid">
+        <!-- Contact Form -->
+        <div class="reveal reveal-delay-1">
+          <form class="contact__form" id="contactForm" action="https://formspree.io/f/YOUR_FORM_ID" method="POST" novalidate>
+            <div class="contact__form-status" id="formStatus" role="alert"></div>
+            
+            <div class="contact__field">
+              <label for="contactName" class="contact__label">Name</label>
+              <input type="text" id="contactName" name="name" class="contact__input" placeholder="Your name" required>
+            </div>
+
+            <div class="contact__field">
+              <label for="contactEmail" class="contact__label">Email</label>
+              <input type="email" id="contactEmail" name="email" class="contact__input" placeholder="your@email.com" required>
+            </div>
+
+            <div class="contact__field">
+              <label for="contactSubject" class="contact__label">Subject</label>
+              <input type="text" id="contactSubject" name="subject" class="contact__input" placeholder="Subject of your inquiry">
+            </div>
+
+            <div class="contact__field">
+              <label for="contactMessage" class="contact__label">Message</label>
+              <textarea id="contactMessage" name="message" class="contact__textarea" placeholder="Your message..." required></textarea>
+            </div>
+
+            <button type="submit" class="contact__submit" id="contactSubmit">
+              Send Message
+              <span>→</span>
+            </button>
+          </form>
+        </div>
+
+        <!-- Contact Info -->
+        <div class="contact__info reveal reveal-delay-2">
+          <div class="contact__office">
+            <h3 class="contact__office-title">Headquarter</h3>
+            <div class="contact__office-details">
+              Dubai Media City Management Office<br>
+              Building – 2<br>
+              Dubai Media City, UAE
+            </div>
+            <a href="mailto:hq@time-inc-group.com" class="contact__office-email">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+                <rect x="1" y="3" width="14" height="10" rx="1" stroke="currentColor" stroke-width="1.2"/>
+                <path d="M1 4l7 5 7-5" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
+              </svg>
+              hq@time-inc-group.com
+            </a>
+          </div>
+
+          <div class="contact__office">
+            <h3 class="contact__office-title">Representative Office Switzerland</h3>
+            <a href="mailto:repoffswitz@time-inc-group.com" class="contact__office-email">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+                <rect x="1" y="3" width="14" height="10" rx="1" stroke="currentColor" stroke-width="1.2"/>
+                <path d="M1 4l7 5 7-5" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
+              </svg>
+              repoffswitz@time-inc-group.com
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== FOOTER ====== -->
+  <footer class="footer" role="contentinfo">
+    <div class="footer__content">
+      <p class="footer__copyright">All content copyright © 2026 TIG Time Inc. Group, Dubai, UAE</p>
+      <div class="footer__center">
+        <a href="https://mirostudio.ch" target="_blank" rel="noopener noreferrer" class="footer__credit">
+          Design & Development by <span class="footer__credit-name">Mirostudio</span>
+        </a>
+      </div>
+      <div class="footer__links">
+        <a href="#" class="footer__link">Terms</a>
+        <a href="#" class="footer__link">Imprint</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
