@@ -132,6 +132,7 @@ a:hover {
 .nav__logo-img {
   height: 28px;
   width: auto;
+  filter: brightness(0) invert(1);
 }
 
 .nav__logo-text {
@@ -351,6 +352,7 @@ a:hover {
   margin: 0 auto var(--space-lg);
   opacity: 0;
   transform: scale(0.95);
+  filter: brightness(0) invert(1);
   animation: heroLogoIn 1.5s var(--ease-out) 0.3s forwards;
 }
 
